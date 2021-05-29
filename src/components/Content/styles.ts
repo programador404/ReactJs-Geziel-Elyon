@@ -97,10 +97,5 @@ export const ImageDiv = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 5rem;
-
-    img {
-      height: 120%;
-      width: 120%;
-    }
   }
 `;
