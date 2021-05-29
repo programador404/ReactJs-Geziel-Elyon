@@ -50,13 +50,6 @@ export const TextDiv = styled.div`
   justify-content: center;
   padding: 2rem;
 
-  @media(max-width: 720px) {
-    width: 100%;
-    height: 65%;
-    align-items: center;
-    text-align: center;
-  }
-
   h1 {
     margin-bottom: 1rem;
     font-size: 2.3rem;
@@ -66,6 +59,21 @@ export const TextDiv = styled.div`
     font-size: 1.2rem;
     max-width: 550px;
     font-weight: 500;
+  }
+
+  @media(max-width: 720px) {
+    width: 100%;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1 {
+      font-size: 2.1rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 `;
 
@@ -81,6 +89,8 @@ export const ImageDiv = styled.div`
   @media(max-width: 720px) {
     width: 100%;
     height: 35%;
+    align-items: center;
+    justify-content: center;
     padding-top: 5rem;
   }
 `;

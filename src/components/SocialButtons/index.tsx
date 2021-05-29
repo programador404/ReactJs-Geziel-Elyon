@@ -6,13 +6,13 @@ export function SocialButtons() {
   return(
     <Container>
       <Button href="https://github.com/programador404" target="_black">
-        <AiFillGithub color="#fff" size={40} />
+        <AiFillGithub color="#fff" size={30} />
       </Button>
       <Button href="https://www.linkedin.com/in/geziel-elyon-a0a1381a5/" target="_black" style={{backgroundColor: '#0962ed'}}>
-        <AiFillLinkedin color="#fff" size={40} />
+        <AiFillLinkedin color="#fff" size={30} />
       </Button>
       <Button href="https://www.instagram.com/_programador404/?hl=pt-br" target="_black" style={{backgroundColor: '#ed125f'}}>
-        <AiFillInstagram color="#fff" size={40} />
+        <AiFillInstagram color="#fff" size={30} />
       </Button>
     </Container>
   );
