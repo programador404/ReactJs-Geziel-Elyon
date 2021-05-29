@@ -33,9 +33,11 @@ export const Logo = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-out;
 
-  &:hover {
-    color: var(--blue);
-    font-size: 2.3rem;
+  @media(min-width: 720px) {
+    &:hover {
+      color: var(--blue);
+      font-size: 2.3rem;
+    }
   }
 `;
 
@@ -50,9 +52,11 @@ export const ButtonContact = styled.a`
   transition: all 0.3s ease-out;
   text-decoration: none;
 
-  &:hover {
-    background-color: var(--blue);
-    font-weight: 900;
-    font-size: 1.07rem;
+  @media(min-width: 720px) {
+    &:hover {
+      background-color: var(--blue);
+      font-weight: 900;
+      font-size: 1.07rem;
+    }
   }
 `;
