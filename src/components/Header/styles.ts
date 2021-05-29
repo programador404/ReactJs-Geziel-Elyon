@@ -9,7 +9,7 @@ export const Container = styled.header`
   background-color: var(--white);
 
   div {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     height: 6rem;
     max-width: 100rem;
     width: 100%;

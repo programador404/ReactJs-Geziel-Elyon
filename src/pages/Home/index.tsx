@@ -17,7 +17,7 @@ interface IContentProps {
 
 const contents: IContentProps[] = [
   {
-    title: "Programador Fullstack Javacript",
+    title: "Programador Fullstack Javascript",
     description: "Sou desenvolvedor Javascript a 5 anos e trabalho em diversas áreas, como: desenvolvimento de aplicativos, criação de sistemas no lado do servidor além da criação de aplicações web! Tudo isso usando uma única linguagem de programação!",
     asset: Desk,
     reverse: false,

@@ -48,7 +48,7 @@ export const TextDiv = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.5rem;
 
   h1 {
     margin-bottom: 1rem;
@@ -68,7 +68,7 @@ export const TextDiv = styled.div`
     justify-content: center;
     text-align: center;
     h1 {
-      font-size: 2.1rem;
+      font-size: 1.9rem;
     }
 
     p {
@@ -84,7 +84,12 @@ export const ImageDiv = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.5rem;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
   
   @media(max-width: 720px) {
     width: 100%;

@@ -6,7 +6,7 @@ export const Container = styled.footer`
 `;
 
 export const Content = styled.div`
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 100rem;
   width: 100%;
   margin: 0 auto;
