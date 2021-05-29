@@ -9,7 +9,7 @@ interface ILimitProps {
 }
 
 export const Container = styled.div<IContainerProps>`
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   ${props => props.icy ? css`
     background-color: var(--icy);
@@ -97,5 +97,10 @@ export const ImageDiv = styled.div`
     align-items: center;
     justify-content: center;
     padding-top: 5rem;
+
+    img {
+      height: 120%;
+      width: 120%;
+    }
   }
 `;
